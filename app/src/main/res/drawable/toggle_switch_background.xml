@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- When selected, use red logo -->
+    <item android:drawable="@mipmap/ic_kaiten_red_foreground"
+        android:state_checked="true" />
+    <!-- When not selected, use grey logo-->
+    <item android:drawable="@mipmap/ic_kaiten_grey_foreground"
+        android:state_checked="false"/>
+</selector>
